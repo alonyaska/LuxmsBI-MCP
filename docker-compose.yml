@@ -1,0 +1,9 @@
+# MCP-сервер работает по stdio, поэтому запускают его так:
+#   docker compose run --rm -T luxms-mcp
+services:
+  luxms-mcp:
+    build: .
+    image: luxms-mcp:latest
+    env_file: .env
+    stdin_open: true
+    tty: false

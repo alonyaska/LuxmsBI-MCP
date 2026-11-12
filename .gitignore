@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+luxms-mcp.log
+.write_probe_state.json
+.write_probe_foreign_backup.json
+.pytest_cache/
